@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa-superior {
+    background-image: url("dev.png");
+    background-size: cover;
+    height: 90vh;
+}
+
+.cabecalho {
+    padding-top: 38px;
+    padding-left: 35px;
+}
+
+.titulo-cabecalho {
+    font-size: 24px;
+    color: white;
+    display: inline;
+}
+
+.link-cabecalho {
+    font-size: 14px;
+    color: white;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 58px;
+    color: white;
+    position: relative;
+    top: 300px;
+    margin-left: 35px;
+}
+
+form {
+    opacity: 0;
+    transition: opacity 1s linear;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    padding: 25px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 110px;
+}
+
+.mostrar-formulario{
+    visibility: visible;
+    opacity: 1;
+}
+
+input {
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    margin-bottom: 18px;
+    padding-left: 5px;
+}
+
+textarea {
+    display: block;
+    width: 250px;
+    height: 80px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    padding-left: 5px;
+}
+
+.titulo-formulario {
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    font-size: 14px;
+    color: #252B42;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: seagreen;
+    color: white;
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#titulo-meio {
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 1px solid #A9D6FF
+}
+
+.titulo-card {
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.caixa-inferior {
+    background-color: darkslategray;
+}
+
+#titulo-inferior {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.paragrafo-inferior {
+    color: white;
+    font: 18px;
+    text-align: center;
+    padding: 20px 50px 50px 20px;
+}
